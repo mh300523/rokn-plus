@@ -1,0 +1,202 @@
+
+.top_bar .t_lang .i_lang
+{
+    margin-left: 2px;
+}
+.top_bar .t_lang > .tl_anc > span
+{
+    margin-right: 1px;
+}
+.t_lang .sam_menu > li > a
+{
+	font-size: 13px;
+}
+header .nav_bar > li:not(:last-child)
+{
+    margin-left: 35px;
+}
+.nav_bar .mob_menu
+{
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.nav_bar .mobsub_list
+{
+    margin-right: 20px;
+}
+.nav_bar .mob_pros:after
+{
+    left: 0;
+}
+.nav_bar .mob_item:after
+{
+    left: 0;
+}
+.rec_navbar .c_title .bar_icon
+{
+	margin-left: 7px;
+}
+.rec_navbar .c_title:after
+{
+	left: 23px;
+}
+.search_icon
+{
+    left: 0;
+}
+.h_recomend .h_shoplist .sho_count
+{
+    left: 17px;
+}
+.h_recomend .my_account
+{
+    margin-left: 24px;
+}
+.demo .demo_li:after
+{
+	content: '\e875';
+    left: 15px;
+}
+.demo .sub_list
+{
+	right: calc(100%);
+    transform-origin: right;
+}
+.main_slider .swiper-button-next:after,.arriv_slider .swiper-button-prev:after
+{
+    content: '\f104';
+}
+.main_slider .swiper-button-prev:after,.arriv_slider .swiper-button-next:after
+{
+    content: '\f105';
+}
+.main_slider .swiper-button-prev
+{
+    right: 47px;
+}
+.main_slider .swiper-button-next
+{
+    left: 47px;
+}
+.pro_desc .addsc > a > i
+{
+    margin-left:6px;
+}
+.arriv_slider
+{
+    border-left: 1px solid rgb(236, 239, 241);
+}
+.arriv_slider .swiper-button-prev
+{
+    left: 24px;
+}
+.arriv_slider .swiper-button-next
+{
+    left: 65px;
+    right: auto;
+}
+.arriv_slider .swiper-button-next:before
+{
+    left: -7px;
+}
+.pro_cont
+{
+    border-right: 1px solid rgb(236, 239, 241);
+}
+.pro_desc .addsc > a:before,.pro_desc .add_fav > a:before
+{
+    right: 0;
+}
+.feat_cont:not(:last-child)
+{
+    border-left: 1px solid rgb(224, 224, 224);
+}
+.mail_cont .nel_env
+{
+    right: 20px;
+}
+.mail_cont .fm_check
+{
+    left: 0;
+}
+.rknl_social > li:not(:last-child)
+{
+    margin-left: 8px;
+}
+footer .fooo_txt
+{
+    padding-left: 60px;
+}
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .rknl_cont .rknl_tit
+    {
+        margin-left: 15px;
+    }
+    footer .fooo_txt
+    {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:991px)	
+{
+    footer .fooo_txt
+    {
+        padding-left: 0px;
+    }
+    footer .fast_links .fsm_title:before
+    {
+        left: 20px;
+    }
+    .top_focont .uv_title
+    {
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    .h_recomend .my_account
+    {
+        margin-left: 10px;
+    }
+    .rknl_cont .rknl_tit
+    {
+        margin-left: 15px;
+    }
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .main_nav
+    {
+        right: 0;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    header .nav_bar > li:not(:last-child)
+    {
+        margin-left: 0;
+    }
+    .h_recomend .my_account
+    {
+        margin-left: 14px;
+    }
+    .rec_navbar .h_recomend 
+    {
+        left: 55px;
+    }
+    .feat_cont:not(:last-child)
+    {
+        border-left: 0;
+    }
+}

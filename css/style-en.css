@@ -1,0 +1,234 @@
+
+.top_bar .t_lang .i_lang
+{
+    margin-right: 2px;
+}
+.top_bar .t_lang > .tl_anc > span
+{
+    margin-left: 1px;
+}
+.top_bar .t_lang> .sam_menu
+{
+    min-width: 100px;
+}
+.t_lang .sam_menu > li > a
+{
+	font-size: 12px;
+    padding: 0 8px;
+}
+.t_lang .sam_menu > li
+{
+    padding: 6px 0;
+}
+header .nav_bar > li:not(:last-child)
+{
+    margin-right: 35px;
+}
+.nav_bar .mob_menu
+{
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.nav_bar .mobsub_list
+{
+    margin-left: 20px;
+}
+.nav_bar .mob_pros:after
+{
+    right: 0;
+}
+.nav_bar .mob_item:after
+{
+    right: 0;
+}
+.rec_navbar .c_title .bar_icon
+{
+	margin-right: 7px;
+}
+.rec_navbar .c_title:after
+{
+	right: 23px;
+}
+.search_icon
+{
+    right: 0;
+}
+.h_recomend .h_shoplist .sho_count
+{
+    right: 17px;
+}
+.h_recomend .my_account
+{
+    margin-right: 24px;
+}
+.demo .demo_li:after
+{
+	content: '\e876';
+    right: 15px;
+}
+.demo .sub_list
+{
+	left: calc(100%);
+    transform-origin: left;
+}
+.main_slider .swiper-button-next:after,.arriv_slider .swiper-button-prev:after
+{
+    content: '\f105';
+}
+.main_slider .swiper-button-prev:after,.arriv_slider .swiper-button-next:after
+{
+    content: '\f104';
+}
+.main_slider .swiper-button-prev
+{
+    left: 47px;
+}
+.main_slider .swiper-button-next
+{
+    right: 47px;
+}
+.pro_desc .addsc > a > i
+{
+    margin-right:6px;
+}
+.arriv_slider
+{
+    border-right: 1px solid rgb(236, 239, 241);
+}
+.arriv_slider .swiper-button-prev
+{
+    right: 24px;
+    left: auto;
+}
+.arriv_slider .swiper-button-next
+{
+    right: 65px;
+}
+.arriv_slider .swiper-button-next:before
+{
+    right: -7px;
+}
+.pro_cont
+{
+    border-left: 1px solid rgb(236, 239, 241);
+}
+.pro_desc .addsc > a:before,.pro_desc .add_fav > a:before
+{
+    left: 0;
+}
+.feat_cont:not(:last-child)
+{
+    border-right: 1px solid rgb(224, 224, 224);
+}
+.mail_cont .nel_env
+{
+    left: 20px;
+}
+.mail_cont .fm_check
+{
+    right: 0;
+}
+.rknl_social > li:not(:last-child)
+{
+    margin-right: 8px;
+}
+footer .fooo_txt
+{
+    padding-right: 60px;
+}
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .rknl_cont .rknl_tit
+    {
+        margin-right: 15px;
+    }
+    footer .fooo_txt
+    {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width:991px)	
+{
+    footer .fooo_txt
+    {
+        padding-right: 0px;
+    }
+    footer .fast_links .fsm_title:before
+    {
+        right: 20px;
+    }
+    .top_focont .uv_title
+    {
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    .h_recomend .my_account
+    {
+        margin-right: 10px;
+    }
+    .rknl_cont .rknl_tit
+    {
+        margin-right: 15px;
+    }
+    .rec_navbar .cating
+    {
+        width: 220px;
+    }
+    .searchbox
+    {
+        width: 35%;
+    }
+    .feat_cont .mafe_tit
+    {
+        font-size: 19px;
+    }
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .main_nav
+    {
+        left: 0;
+    }
+    .closebtn
+    {
+        right: 20px;
+    }
+    header .nav_bar > li:not(:last-child)
+    {
+        margin-right: 0;
+    }
+    .h_recomend .my_account
+    {
+        margin-right: 14px;
+    }
+    .h_recomend .re_btn .fa-shopping-cart
+    {
+        -webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    .rec_navbar .h_recomend 
+    {
+        right: 55px;
+    }
+    .h_recomend .h_shoplist .sho_count
+    {
+        right: 15px;
+    }
+    .feat_cont:not(:last-child)
+    {
+        border-right: 0;
+    }
+}
